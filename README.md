@@ -3,6 +3,10 @@
 ## Overview
 This is a full-stack web application built using Django for the backend and React for the frontend. The project implements authentication, API interaction, and dynamic frontend rendering.
 
+## User Login 
+Username :- bhavesh
+Password :-bmdsa#51
+
 ## Features
 - User authentication (Login, Logout, Register)
 - Secure API endpoints with JWT authentication
