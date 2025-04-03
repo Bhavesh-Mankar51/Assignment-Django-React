@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "Bill Clinton",
+      "description": "42nd President of the United States",
+      "profileImg": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bill_Clinton.jpg"
+    },
+    {
+      "id": 2,
+      "name": "George W. Bush",
+      "description": "43rd President of the United States",
+      "profileImg": "https://upload.wikimedia.org/wikipedia/commons/d/d4/George-W-Bush.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Barack Obama",
+      "description": "44th President of the United States",
+      "profileImg": "https://upload.wikimedia.org/wikipedia/commons/8/8d/President_Barack_Obama.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Donald Trump",
+      "description": "45th President of the United States",
+      "profileImg": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Joe Biden",
+      "description": "46th President of the United States",
+      "profileImg": "https://upload.wikimedia.org/wikipedia/commons/6/68/Joe_Biden_presidential_portrait.jpg"
+    }
+]
+  

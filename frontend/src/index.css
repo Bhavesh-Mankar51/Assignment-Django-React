@@ -1,0 +1,201 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: blue;
+    padding: 15px 20px;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 30px;
+    min-height: 70px;
+}
+
+.header-wrapper a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.log-wrapper{
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.dataform {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    text-align: center;
+}
+
+.dataform input[type="text"],
+.dataform input[type="password"],
+.dataform input[type="submit"] {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.dataform input[type="text"]:focus,
+.dataform input[type="password"]:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 0 0 8px blue;
+}
+
+.dataform input[type="submit"] {
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+
+.res-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: white;
+    align-items: center;
+    height: 800px;
+}
+
+.Caption {
+    text-align: center;
+    color: white;
+    background-color:#F7374F;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    width: 400px;
+    font-size: larger;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+li{
+    /* top: 40px; */
+    font-size: large;
+    font-weight: 500;
+    line-height: 50px;
+    justify-content: space-between;
+}
+
+.list-wrapper{
+    display: flex;
+    background-color: #FFF5E4;
+    border-radius: 10px;
+    border-width: 20px;
+    border-color: #333;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    min-width: 400px;
+    padding: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
+
+.name-viewp{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.name-viewp button {
+    padding: 10px 20px;
+    border: 1px solid #0000003c;
+    border-radius: 50px;
+    font-weight: 500;
+    color: rgb(26, 8, 8);
+    transition: all ease 0.4s;
+    background-color: #FF9B17;
+    position: relative;
+    font-size: 12px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+
+.button {
+    padding: 10px 20px;
+    border: 1px solid #0000003c;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000000bb;
+    transition: all ease 0.4s;
+    background-color: #FF9B17;
+    position: relative;
+    font-size: 18px;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  
+  .button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(12, 1, 232); 
+    border-radius: 50%;
+    z-index: 0; 
+    transition: all ease 0.4s;
+  }
+  
+  
+  .button:hover::after{
+    bottom: 0;
+    border-radius: 0;
+    
+  }
+  
+  
+  .button h4 a {
+    color: #000000bb;
+    text-decoration: none;
+    position: relative;
+    z-index: 9;
+  }
+  
+  .button h4:hover a {
+    color: #fff;
+  }
+  
+  .button:hover a{
+    color: #fff;
+  }
+  

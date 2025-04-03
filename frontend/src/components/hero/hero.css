@@ -1,0 +1,9 @@
+.hero-wrapper {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 50px;
+  background-color: white;
+}
+
+

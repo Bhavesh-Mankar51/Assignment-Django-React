@@ -1,0 +1,17 @@
+/* header.css */
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background-color: blue;
+    padding: 10px 10px;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
